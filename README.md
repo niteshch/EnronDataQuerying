@@ -36,7 +36,7 @@ Update the data source configuration in `spring-web-servlet.xml` file in the `co
 ```
 Run `mvn clean install` in `com.textiq.web` directory
 
-Copy the war file from `com.textiq.web\target` directory and paste it into the webapps folder of tomcat
+Copy the war file from `com.textiq.web/target` directory and paste it into the webapps folder of tomcat
 
 Start tomcat server and you can access the application using the following URL:
 [http://localhost:8080/textiq/email/](http://localhost:8080/textiq/email/)
