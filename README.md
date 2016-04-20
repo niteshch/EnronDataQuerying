@@ -3,16 +3,16 @@ This web application can be used for querying enron email data. The data is cont
 
 You need to first load the data into the PostgreSQL DB using the loaddb.py file provided.
 
-# How it works
---------------
+## How it works
 
-## Pre-requisites
+
+### Pre-requisites
 - Install JDK 8
 - Install PostgresSQL
 - Install Tomcat 8
 - Install Maven
 
-## Initial Set Up
+### Application Set Up
 Check out the code from the repository. Update the loaddb.py file and change the database URI
 ```
 DATABASEURI = "postgresql://postgres:@localhost:5432/textiq"
