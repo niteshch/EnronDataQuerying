@@ -8,7 +8,7 @@ You need to first load the data into the PostgreSQL DB using the loaddb.py file 
 
 ### Pre-requisites
 - Install JDK 8
-- Install PostgresSQL
+- Install PostgreSQL
 - Install Tomcat 8
 - Install Maven
 
