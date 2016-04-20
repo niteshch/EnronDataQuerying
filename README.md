@@ -31,7 +31,7 @@ Update the data source configuration in `spring-web-servlet.xml` file in the `sr
 		<property name="driverClassName" value="org.postgresql.Driver" />
 		<property name="url" value="jdbc:postgresql://localhost:5432/textiq" />
 		<property name="username" value="postgres" />
-		<property name="password" value="sheela79" />
+		<property name="password" value="*****" />
 </bean>
 ```
 Run `mvn clean install`
