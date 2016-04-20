@@ -24,7 +24,7 @@ Run the python script to load the data into the PostgreSQL database.
 python loaddb.py
 ```
 
-Update the data source configuration in `spring-web-servlet.xml` file in the `src\main\webapp\WEB-INF\spring-web-servlet.xml`
+Update the data source configuration in `spring-web-servlet.xml` file in the `com.textiq.web/src/main/webapp/WEB-INF/` directort
 ```
 <bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -34,9 +34,9 @@ Update the data source configuration in `spring-web-servlet.xml` file in the `sr
 		<property name="password" value="*****" />
 </bean>
 ```
-Run `mvn clean install`
+Run `mvn clean install` in `com.textiq.web` directory
 
-Copy the war file from target directory and paste it into the webapps folder of tomcat
+Copy the war file from `com.textiq.web\target` directory and paste it into the webapps folder of tomcat
 
 Start tomcat server and you can access the application using the following URL:
 [http://localhost:8080/textiq/email/](http://localhost:8080/textiq/email/)
